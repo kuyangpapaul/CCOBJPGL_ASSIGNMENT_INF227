@@ -1,0 +1,2 @@
+interface banana extends Shake {
+}
