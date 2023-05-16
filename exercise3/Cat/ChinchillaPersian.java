@@ -1,7 +1,7 @@
 interface ChinchillaPersian {
 
     String height = "12 inches";
-    String characteristic = "Gentle";
+    String characteristic = "gentle";
     String food = "apples";
     
     void meow();
