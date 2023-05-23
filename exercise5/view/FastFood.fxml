@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FastFoodController">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="118.0" layoutX="25.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/MCDO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="176.0" layoutX="103.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/grin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/MangInasal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="118.0" layoutX="386.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/JABEE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="200.0" layoutX="436.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wendys.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="54.0" layoutY="137.0" mnemonicParsing="false" onAction="#showInfo" text="I LOVE MCDO">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="252.0" layoutY="161.0" mnemonicParsing="false" onAction="#showInfo" text="I LOVE INASAL">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="459.0" layoutY="137.0" mnemonicParsing="false" onAction="#showInfo" text="I LOVE WENDYS ">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="103.0" layoutY="330.0" mnemonicParsing="false" onAction="#showInfo" text="I LOVE GREENWICH">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="384.0" layoutY="330.0" mnemonicParsing="false" onAction="#showInfo" text="I LOVE JOLLIBEE">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
